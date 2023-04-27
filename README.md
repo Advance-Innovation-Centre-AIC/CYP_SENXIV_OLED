@@ -20,17 +20,28 @@ which include
 - IAR C/C++ compiler v9.30.1 (`IAR`)
 
 ## OLED functions
-Thess functions will print text on OLED on CY8CKIT-028-SENSE fllowing this
+These functions will print text on OLED on CY8CKIT-028-SENSE fllowing this
 
 ### lcd_print_top(const char * s)
 This function will let you print on top-left of the screen
 char * s = text you want to print on OLED
-
 ### lcd_print_bot(const char * s)
 This function will let you print on bottom-left of the screen
 char * s = text you want to print on OLED
-
 ### lcd_print_line_n(const char * s,int linenum)
 This function will let you print on selected line of the screen (from 1-6)
 char * s = text you want to print on OLED
 linenum = selected line
+
+## RGB LED control functions
+these functions will control RGB LED on CY8CKIT-062s2-43012
+### Red LED
+led_red_on(void)
+led_red_off(void)
+### Green LED
+led_green_on(void)
+led_green_off(void)
+### Blue LED
+led_blue_on(void)
+led_blue_off(void)
+
