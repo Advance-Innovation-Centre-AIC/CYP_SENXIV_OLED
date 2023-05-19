@@ -20,15 +20,25 @@ which include
 ## OLED functions
 
 These functions will print text on OLED on CY8CKIT-028-SENSE following this
+
 **lcd_print_top(const char * s)**
+
 This function will let you print on top-left of the screen
+
 char * s = text you want to print on OLED
+
 **lcd_print_bot(const char * s)**
+
 This function will let you print on bottom-left of the screen
+
 char * s = text you want to print on OLED
+
 **lcd_print_line_n(const char * s,int linenum)**
+
 This function will let you print on selected line of the screen (from 1-6)
+
 char * s = text you want to print on OLED
+
 linenum = selected line
 
 ## How to use
